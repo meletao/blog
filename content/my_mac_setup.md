@@ -1,6 +1,6 @@
 # My Mac Setup
 
-These are the steps I follow to setup my new mac machine.
+I follow these steps to setup my mac machine.
 
 ## Homebrew
 
@@ -31,22 +31,28 @@ brew install --cask brave-browser
 brew install --cask visual-studio-code
 ```
 
-## Setting Up My Terminal
+## Terminal
 
-There are alot of third-party terminals like oh my zsh, etc that offers great customization but I prefer using the macOS built-in terminal and add subtle but useful features.
+Since I spend alot of time in the terminal, I like to customize it to my taste. There are alot of third-party terminals like oh my zsh, etc that offers great customization out-of-the-box but I prefer using the macOS built-in terminal and add subtle but useful features.
 
-This is how your terminal will look like after the setup:
+This is how my terminal looks like after the setup:
 
 <img src="./images/terminal.png" width="600">
 
 
-### Autosuggestion and Syntax Highlighting
+### Extension(s)
+
+I download these two plugins to add autosuggestion and syntax highlighting functionalities.
+
 ```zsh
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting
 ```
 
-### Short Alias to Frequently Used Commands
+### .zshrc Configuration
+
+`.zshrc` is a file in the `~` directory that runs everytime I open my terminal. I edit this file to customize my terminal.
+
 ```zsh
 nano ~/.zshrc
 ```
